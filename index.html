@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">My Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kalash Kumari Thakur</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQH9nDs8nLtjIA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1698092987144?e=1737590400&v=beta&t=ONBZDONLsYRaHUNh-oGOwUOaCiFYzN7_y7aBTKu74H4" alt="kalash profile picture" />
+        <!-- <div class="text-container">
+          <p>
+            Dedicated and enthusiastic learner in a dynamic phase of personal and professional growth. Possesses strong leadership
+            qualities and thrives in collaborative team environments. Actively expanding proficiency in multiple programming languages,
+            including Python, HTML, CSS, and JavaScript, to stay at the forefront of emerging technologies.
+          </p>
+        </div> -->
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Kalash kumari thakur</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1yxqTbioxirdmQWtkjPQM0nIX5edRJN-S/view?usp=drive_link')"
+          >
+            View CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqE3asP0YRPRnR6U3BS85jeB2u7UWPrmrzA&s"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/kalash-kumari-thakur-918796291/"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_rmATVdIepdIiSH0UCcXjyuEYo3KXo5oxaw&s"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Kkt04"
+          />
+        </div>
+      </div>
+    </section>  
+    <!-- <div class="text-container">
+    <p>
+      Dedicated and enthusiastic learner in a dynamic phase of personal and professional growth. Possesses strong leadership
+      qualities and thrives in collaborative team environments. Actively expanding proficiency in multiple programming languages,
+      including Python, HTML, CSS, and JavaScript, to stay at the forefront of emerging technologies.
+    </p>
+  </div> -->
+  <br/>
+  <br/>
+  </body>
+    <h1 class="title">Get To Know More About Me</h1>  
+    <section id="about">
+      <!-- <h1 class="title">Get To Know More About Me</h1> -->
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://avatars.githubusercontent.com/u/152004250?v=4"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+    
+            <div class="details-container">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-qy8biaIwvx0LQx9ttuMuxoPreIsWgMDKNA&s"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p><br>
+                <p>
+                  <h2>Newton School of Technology, Rishihood University (2023 - 2027)</h2>
+                  <br/>
+                  <p>Bachelor of Technology</p>
+                </p>
+                <p>
+                  <h2>St. Mary's English High School (CBSE)</h2>
+                  <br/>
+                  <p>Intermediate (Class XII)</p>
+                </p>
+                <p>
+                  <h2>St. Mary's English High School (CBSE)</h2>
+                  <br/>
+                  <p>Matriculation (Class X)</p>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://w7.pngwing.com/pngs/323/873/png-transparent-arrow-computer-icons-down-arrow-angle-hand-logo-thumbnail.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <br/>
+    <section id="experience">
+      <h1 class="title">Explore My</h1>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              
+               
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-tick-vector-icon-png-image_696437.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>My SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://w7.pngwing.com/pngs/323/873/png-transparent-arrow-computer-icons-down-arrow-angle-hand-logo-thumbnail.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <h1 class="title">Browse My Recent</h1>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img id="artgallery"
+                src="./assets/artgallery.png"
+                alt="Project 1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Mehak261124/3d-ART-GALLERY'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://3d-art-gallery-taupe.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div> -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://yt3.googleusercontent.com/ytc/AIdro_mYD-RYAiuMSRWXoTGKuIiLy4MMaGgiBidcii8EGO9wkA=s900-c-k-c0x00ffffff-no-rj"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">MovieHub</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Kkt04/MovieHub.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Kkt04/MovieHub.git'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/79e38679-0925-423c-8feb-8902a3376771/d7u59vw-7e6b4131-1d8a-44e9-90bd-b94616aed1c6.jpg/v1/fill/w_800,h_800,q_75,strp/time_rizz_logo__1_by_uhnova_d7u59vw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvNzllMzg2NzktMDkyNS00MjNjLThmZWItODkwMmEzMzc2NzcxXC9kN3U1OXZ3LTdlNmI0MTMxLTFkOGEtNDRlOS05MGJkLWI5NDYxNmFlZDFjNi5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.54GyDV-uICIzzcv0HV3z6ZFEQ2rAxoNeeX5T6Qq0u9w"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Hotel-Rizz</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Kkt04/Hotel-Rizz.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://hotel-rizz.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWmxOEPQSSKRo6VrFUEBdYxoJ6Kh_pLhKcJg&s"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">CourseBazar</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Kkt04/EduApp.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://edu-app-a8pj.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://www.pngitem.com/pimgs/m/159-1591704_transparent-png-arrows-down-arrow-icon-png-png.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+
+      <h1 class="title">Get in Touch</h1>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXTRPsHsAn-ErPJ8gggrOfL9ZHlo67KAbqLg&s"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="kalashkumarithakur@gmail.com">kalashkumarithakur@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="data:image/png;base64,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"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/kalash-kumari-thakur-918796291/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Kalash. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
